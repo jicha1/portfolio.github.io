@@ -1855,6 +1855,7 @@ body.dark .project-card,
 body.dark .skill-card,
 
 body.dark .timeline-content,
+body.dark .timeline-year,
 
 body.dark .info-card,
 
@@ -1880,17 +1881,44 @@ body.dark p,
 
 body.dark span{
 
+
 color:#cbd5e1;
 
 }
+body.dark .project-content span{
 
+color:#0c0f12;
+
+}
+body.dark .skills-grid span{
+
+color:#0c0f12;
+
+}
+body.dark .footer-sp{
+
+color:#0c0f12;
+
+}
+body.dark .footer-h2{
+
+color:#0c0f12;
+
+}
+body.dark .footer-p{
+
+color:#0c0f12;
+
+}
 body.dark footer{
 
 background:#020617;
 
 }
 
-
+body.dark {
+    --text: #ffffff;
+}
 
 /*==================================================
 GLASS EFFECT
@@ -2204,6 +2232,14 @@ Lightbox
 
 .timeline-gpa strong{
     color: var(--primary-color);
+}
+.interest-list-text {
+    color: var(--text);
+}
+
+.interest-list-text .interest-title {
+    color: var(--text);
+    font-weight: 550;
 }
 /*==================================================
 END
